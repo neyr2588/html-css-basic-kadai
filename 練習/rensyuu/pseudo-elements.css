@@ -1,0 +1,25 @@
+/* タフの前に何かを追加する */
+h1::before {
+   content: "◆";
+   color: orange;
+}
+
+/* タグの後に何かを追加する */
+h1::after {
+    content: "■";
+    color: pink;
+}
+
+/* 最初の一文字に何かを装飾する */
+p::first-letter { 
+    font-size: 24px;
+    font-weight: bold;
+} 
+
+/* 最初の一行に何かを装飾する */
+p::first-line {
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+}
+
