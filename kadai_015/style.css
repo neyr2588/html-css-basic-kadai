@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Meiryo, sans-serif;
   text-align: center
 }
 
@@ -16,9 +16,13 @@ html {
 }
 
 h1 {
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
     text-shadow: 1px 2px 3px rgb(115, 115, 114);
     border-bottom: 3px solid rgb(115, 115, 114);
-    letter-spacing: 48px;
+    letter-spacing: 1.2em;
+}
+
+#basic{
+  font-weight: bold;
 }
